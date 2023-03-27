@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Distribution" content="Global" />
+
+    <meta name="description" content="" />
+
+    <meta name="keywords" content="GITAM" />
+
+    <meta name="theme-color" content="#0F172A" />
+
+    <meta name="author" content="GITAM" />
+
+    <meta name="copyright" content="GITAM" />
+    <title>PhD Online Application 2022 | GITAM Deemed to be University</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <!---- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/flowbite.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style type="text/tailwindcss">
+      .form {
+        @apply w-full;
+      }
+      .form span {
+        @apply mb-2 block text-base text-slate-700;
+      }
+      .form span small {
+        font-size: 10px;
+      }
+      .form input,
+      .form textarea,
+      .form select {
+        @apply bg-white border border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5;
+      }
+      .form input[type="file"] {
+        @apply block p-0 file:border-0 file:text-sm file:font-semibold file:bg-slate-200 file:text-slate-900 hover:file:bg-sky-100 hover:file:text-sky-500 border-0 bg-transparent;
+      }
+      .form input[type="radio"] {
+        @apply w-4 h-4 text-sky-500  border-gray-300 focus:ring-sky-50 focus:ring-0 cursor-pointer;
+      }
+    </style>
+  </head>
+  <body class="bg-[#e2e8f0]">
+    <div id="wrapper">
+      <!-- Desktop Menu Starts-->
+      <div class="sidebar">
+        <header>
+          <a href="#" target="_blank">
+            <div class="image-text">
+              <span class="image">
+                <img src="img/logo.png" alt="logo" />
+              </span>
+              <div class="text logo-text">
+                <img class="w-28" src="img/logo2.png" alt="logo" />
+              </div>
+            </div>
+          </a>
+
+          <i class="bx bx-chevron-right toggle"></i>
+        </header>
+
+        <div class="menu-bar">
+          <div class="menu">
+            <ul class="menu-links">
+              <li class="nav-link active">
+                <a href="#">
+                  <i class="bx bx-home-alt icon"></i>
+                  <span class="text nav-text">Programme Selection</span>
+                </a>
+              </li>
+              <li class="nav-link">
+                <a href="#">
+                  <i class="bx bx-home-alt icon"></i>
+                  <span class="text nav-text">Programme Type</span>
+                </a>
+              </li>
+              <li class="nav-link">
+                <a href="#">
+                  <i class="bx bx-home-alt icon"></i>
+                  <span class="text nav-text">Personal Details</span>
+                </a>
+              </li>
+              <li class="nav-link">
+                <a href="#">
+                  <i class="bx bx-home-alt icon"></i>
+                  <span class="text nav-text">Qualifications</span>
+                </a>
+              </li>
+              <li class="nav-link">
+                <a href="#">
+                  <i class="bx bx-home-alt icon"></i>
+                  <span class="text nav-text">Work Experience</span>
+                </a>
+              </li>
+
+              <li class="nav-link">
+                <a href="#">
+                  <i class="bx bx-home-alt icon"></i>
+                  <span class="text nav-text">Upload Documents</span>
+                </a>
+              </li>
+              <li class="nav-link">
+                <a href="#">
+                  <i class="bx bx-home-alt icon"></i>
+                  <span class="text nav-text">Review and Pay</span>
+                </a>
+              </li>
+              <li class="nav-link">
+                <a href="#">
+                  <i class="bx bx-home-alt icon"></i>
+                  <span class="text nav-text">Application-View/Print </span>
+                </a>
+              </li>
+              <li class="nav-link">
+                <a href="#">
+                  <i class="bx bx-home-alt icon"></i>
+                  <span class="text nav-text">Assessment Result </span>
+                </a>
+              </li>
+              <!-- <li class="nav-link">
+                <a href="#">
+                  <i class="bx bx-headphone icon"></i>
+                  <div class="badge">10</div>
+                  <span class="text nav-text">Audio</span>
+                </a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Desktop Menu Ends-->
+
+      <!-- Mobile Menu Starts-->
+      <div class="mobileHeader bg-white w-full py-2 px-5">
+        <div class="flex items-center justify-between">
+          <div>
+            <img src="img/logo.svg" alt="" class="w-48" />
+          </div>
+          <div class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Menu Ends-->
+
+      <!-- Main Content Starts-->
+      <div class="main">
+        <div class="p-3 bg-white rounded-md shadow-lg mb-5 lg:mb-10">
+          <h2
+            class="text-xl sm:text-2xl font-medium text-slate-800 mt-3 lg:mt-0"
+          >
+            Select Highest Qualification Details
+          </h2>
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-5"
+          >
+            <div class="form">
+              <span>Highest Qualification Details </span>
+              <select id="countries">
+                <option selected="">-- Select option --</option>
+                <option value="US">Select1</option>
+                <option value="CA">Select2</option>
+                <option value="FR">Select3</option>
+                <option value="DE">Select4</option>
+              </select>
+            </div>
+            <div class="form">
+              <span>Event <small>(Team / Individual)</small></span>
+              <div class="flex items-center gap-3 mt-4">
+                <div class="flex items-center gap-x-2">
+                  <input
+                    id="default-radio-1"
+                    type="radio"
+                    value=""
+                    name="default-radio"
+                    checked=""
+                  />
+                  <label for="default-radio-1" class="!mb-0">Team</label>
+                </div>
+                <div class="flex items-center gap-x-2">
+                  <input
+                    id="default-radio-2"
+                    type="radio"
+                    value=""
+                    name="default-radio"
+                  />
+                  <label for="default-radio-2" class="!mb-0">Individual</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form">
+              <span>Organized by</span>
+              <input type="text" placeholder="Enter organized by" />
+            </div>
+            <div class="form">
+              <span>Upload the Document <small>(JPG / PNG)</small></span>
+              <input type="file" placeholder="Enter organized by" />
+            </div>
+            <div class="sm:col-span-2 lg:col-span-3 text-center">
+              <button
+                class="bg-sky-500 py-2 px-8 text-base text-white hover:bg-sky-800"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Main Content Ends-->
+    </div>
+    <script src="js/tailwind.js"></script>
+    <script src="js/flowbite.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
